@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+      padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans' ;
+  }
+  body{
+    background-image: url(https://i.pinimg.com/564x/7d/68/eb/7d68eb076f4a512fba3702a62e516401.jpg);
+    background-size: 10px cover; 
+  }
+  nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #91692f;
+    font-size: 40px;
+    margin-top: 60px;
+  }
+  .menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .menu-horizontal > li:hover{
+    background-color: #83602b;
+  }
+  .menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #8d6830;
+  }
+  .menu-horizontal li:hover .menu-vertical{
+    display: block;
+  }
+  .menu-vertical li:hover{
+    background-color: rgb(112, 78, 14)
+  }
+  .menu-vertical li a{
+    display: block;
+    color: #ffffff;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+  }
+@import url(´https://fonts.googleapis.com/css2?family=Prompt:wght@300;700&display=swap´);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ´Prompt´;
+}
+section{
+    height: 70vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+#inicio{
+    background-color: #91692f;
+    color: #ffffff;
+    height: 100vh;
+}
+section h1{
+    font-size: 70px;
+}
+section img{
+    width: 350px;
+    margin: 0 50px;
+}
+section .info{
+    width: 600px;
+    margin: 0 px;
+}
+.Biografia{
+    position:relative;
+    left: -50px;
+    opacity: 0;
+}
+.efecto-Biografia{
+    left: 0px;
+    opacity: 1;
+    transition: 1s linear;
+}
+.descubrimiento{
+    transform: scale(0.5);
+    opacity: 0;
+}
+.efecto-descubrimientos{
+    transform: scale(1);
+    opacity: 1;
+}
+.premios{
+    position: relative;
+    bottom: -80px;
+    opacity: 0;
+}
+.premios-efecto{
+    opacity: 1;
+    bottom: 0;
+    transition: 1s linear;
+}
+
+.estudios{
+    transform: scale(.5);
+    opacity: 0;
+}
+.studios-efectos{
+
+}
+
+.imagen-redonda {
+  width: 400px; 
+  height: 400px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  }
+
+  button { 
+    border: 0;
+background-image: linear-gradient(
+  150deg,
+  #ffffff,
+  rgb(94, 45, 17),
+  rgb(114, 113, 26)
+);
+border-radius: 8px;
+color: #000000;
+display: flex;
+font-size: 18px;
+padding: 4px;
+cursor: pointer;
+transition: .3s;
+  }
+  button span {
+    background: #111
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+  }
+  button:hover span {
+    background: none;
+  }
+
+  button:active {
+    transform :scale(0.9);
+  }
